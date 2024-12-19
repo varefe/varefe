@@ -1,0 +1,149 @@
+html{
+width: 100%;
+}
+body{
+    background-color: aliceblue;
+    font-style: normal;
+    font-size: medium;
+    background-color: rgb(30, 29, 29) ;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background: none;
+   align-items: center;
+   text-align: center;
+   text-decoration: none;
+}
+header a{
+    color: white;
+    font-display: none;
+    font-style: none;
+    padding: 5%;
+    text-decoration: none;
+}
+header a:hover{
+    color: black;
+    font-style: none;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+header hr{
+    width: 100%;
+}
+#link1{
+    float: left;
+    float: center;
+}
+#link2{
+    float: right;
+    float: center;
+}
+.site-head{
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    height: 800px;
+    font-size: medium;
+    font-style: none;
+    background-image: url("car.jpg");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+}
+#icerik{
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 15%;
+    float: center;
+}
+#icerik h3 h2{
+    float: center;
+    margin-top:100%;
+
+}
+#icerik>a>button{
+    color: white;
+    background: none;
+    border-radius: 0px;
+    border: 0cap;
+    float: center;
+    width: 200px;
+    border-radius: 25px;
+}
+#icerik a button:hover{
+    background-color: rgba(165, 160, 160, 0.178);
+    width: 300px;
+    color: black;
+}
+.details{
+    width: 90%;
+    height: 500px;
+    align-items: center;
+    padding: 5%;
+    margin-top: 10%;
+
+}
+#detail1, #detail2, #detail3{
+    width: 25%;
+    height: 450px;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    margin: 2%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 34, 34);
+}
+
+#detail1 img, #detail2 img, #detail3 img{
+    width: 250px;
+    height: auto;
+}
+#detail1:hover, #detail2:hover, #detail3:hover{
+    margin: 0%;
+    width: 27%;
+    animation:both;
+}
+
+#detail1 a:hover, #detail2 a:hover, #detail3 a:hover{
+    color: aliceblue;
+    font-size: 20px;
+}
+#detail1 img:hover, #detail2 img:hover, #detail3 img:hover{
+width: 270px;
+    height: auto;
+}
+footer{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin: 1%;
+    margin-top: 5%;
+    float: left;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}
+footer a:hover{
+    color: black;
+    background-color: rgba(165, 160, 160, 0.178);
+}
+hr{
+    width: 100%;
+}
