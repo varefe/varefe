@@ -96,18 +96,18 @@ header hr{
 }
 #detail1, #detail2, #detail3{
     width: 25%;
-    height: 450px;
+    height: 125%;
     float: left;
-    padding-left: 3%;
-    padding-top: 3%;
-    margin: 2%;
+    padding: 3%;
+    margin: 1%;
     text-decoration: none;
+    text-align: center;
     color: white;
     background-color: rgb(45, 34, 34);
 }
 
 #detail1 img, #detail2 img, #detail3 img{
-    width: 250px;
+    width: 100%;
     height: auto;
 }
 #detail1:hover, #detail2:hover, #detail3:hover{
@@ -121,10 +121,11 @@ header hr{
     font-size: 20px;
 }
 #detail1 img:hover, #detail2 img:hover, #detail3 img:hover{
-width: 270px;
+width: 103%;
     height: auto;
 }
 footer{
+    margin-top: 5%;
     width: 100%;
     color: white;
     text-decoration: none;
@@ -134,7 +135,7 @@ footer a{
     color: white;
     text-decoration: none;
     margin: 1%;
-    margin-top: 5%;
+    margin-top: 1%;
     float: left;
     width: 100px;
     height: 25px;
@@ -145,5 +146,41 @@ footer a:hover{
     background-color: rgba(165, 160, 160, 0.178);
 }
 hr{
+    margin-top: 2%;
     width: 100%;
+}
+.site-head2{
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    height: 800px;
+    font-size: medium;
+    font-style: none;
+    background-image: url("car5.webp");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+video{
+    width: 100%;
+    height: auto;
+}
+h2{
+    color: white;
+    margin-top: 15%;
+}
+h4{
+    color: white;
+    margin-top: 3%;
+}
+p{
+    margin: 15%;
+    text-align: center;
+    font-size:x-large;
 }
